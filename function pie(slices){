@@ -1,0 +1,11 @@
+function pie(slices){
+	return slices*2;
+}
+function cake(slices){
+	return slices*7;
+}
+function pizza(slices){
+	return slices*1902;
+}
+console.log(pizza(pie(cake(3))));
+
